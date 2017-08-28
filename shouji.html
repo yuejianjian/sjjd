@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>京东手机页面</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/shouji.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body ng-app="myApp">
+<div class="section1">
+
+    <div class="search">
+        <input type="text" name="" id="txt" value="数码相机">
+        <button>搜索</button>
+    </div>
+    <div ng-controller="CarouselDemoCtrl">
+        <div style="height: 170px">
+            <carousel interval="myInterval" no-wrap="noWrapSlides">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                </slide>
+            </carousel>
+        </div>
+    </div>
+
+</div>
+<div class="section2">
+    <div class="w">
+        <div class="nav">
+            <a href="#">
+                <img src="images/shouji/jdcs.png" alt="">
+                <span>京东超市</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/qqg.png" alt="">
+                <span>全球购</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/fZC.png" alt="">
+                <span>服装城</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/jdsx.png" alt="">
+                <span>京东生鲜</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/jddj.png" alt="">
+                <span>京东到家</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/czjf.png" alt="">
+                <span>充值缴费</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/ljd.png" alt="">
+                <span>领京豆</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/lj.png" alt="">
+                <span>领劵</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/hzq.png" alt="">
+                <span>惠赚钱</span>
+            </a>
+            <a href="#">
+                <img src="images/shouji/wlcx.png" alt="">
+                <span>物流查询</span>
+            </a>
+
+        </div>
+    </div>
+</div>
+<div class="section3">
+    <div class="w">
+        <div class="libao">
+            <img src="images/shouji/lb.jpg" alt="大礼包">
+        </div>
+        <div class="news">
+            <a  class="a-left" href="#">
+                <img src="images/shouji/news.png" alt="">
+            </a>
+            <div class="newlis">
+                <ul>
+                    <li>青春好开森</li>
+                </ul>
+            </div>
+            <a class ="a-right" href="#">更多
+            </a>
+        </div>
+    </div>
+</div>
+<div class="section4">
+    <div class="w">
+        <div class="daojishi">
+            <div id="demo">
+                <p>距离双十一购物节还剩：40天2小时12分钟12秒！</p>
+            </div>
+        </div>
+        <div class="zhangshi">
+            <ul>
+                <li>
+                    <div class="image">
+                        <a href="#"><img src="images/shouji/lins.jpg" alt=""></a>
+                    </div>
+                    <div class="price">
+                        <span class="new-price">￥29.8</span>
+                        <span class="old-price">￥128</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="image">
+                        <a href="#"><img src="images/shouji/yas.jpg" alt=""></a>
+                    </div>
+                    <div class="price">
+                        <span class="new-price">￥29.8</span>
+                        <span class="old-price">￥128</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="image">
+                        <a href="#"><img src="images/shouji/dianl.jpg" alt=""></a>
+                    </div>
+                    <div class="price">
+                        <span class="new-price">￥29.8</span>
+                        <span class="old-price">￥128</span>
+                    </div>
+                </li>
+                <li class="price-right">
+                    <div class="image">
+                        <a href="#"><img src="images/shouji/baijiu.jpg" alt=""></a>
+                    </div>
+                    <div class="price">
+                        <span class="new-price">￥29.8</span>
+                        <span class="old-price">￥128</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section5">
+    <div class="ashuo">
+        <span><img src="images/shouji/ashngh.jpg" alt="爱生活"></span>
+    </div>
+    <div class="w">
+        <div class="alis">
+            <div class="real-left">
+                <div class="text-left">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-left">
+                    <img src="images/shouji/shouj.jpg" alt="手机">
+                </div>
+            </div>
+            <div class="real-right">
+                <div class="text-right">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-right">
+                    <img src="images/shouji/xiyij.jpg" alt="洗衣机">
+                </div>
+            </div>
+            <div class="real-left">
+                <div class="text-left">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-left">
+                    <img src="images/shouji/youm.jpg" alt="油">
+                </div>
+            </div>
+            <div class="real-right">
+                <div class="text-right">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-right">
+                    <img src="images/shouji/chah.jpg" alt="洗衣机">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section6">
+    <div class="ashuo">
+        <span><img src="images/shouji/ashngh.jpg" alt="爱生活"></span>
+    </div>
+    <div class="w">
+        <div class="alis">
+            <div class="real-left">
+                <div class="text-left">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-left">
+                    <img src="images/shouji/shouj.jpg" alt="手机">
+                </div>
+            </div>
+            <div class="real-right">
+                <div class="text-right">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-right">
+                    <img src="images/shouji/xiyij.jpg" alt="洗衣机">
+                </div>
+            </div>
+            <div class="real-left">
+                <div class="text-left">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-left">
+                    <img src="images/shouji/youm.jpg" alt="油">
+                </div>
+            </div>
+            <div class="real-right">
+                <div class="text-right">
+                    <strong>玩3C</strong>
+                    <p>iPhone 7超低价</p>
+                    <span>疯狂秒杀中</span>
+                </div>
+                <div class="img-right">
+                    <img src="images/shouji/chah.jpg" alt="洗衣机">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sectionx">
+    <div class="dilist">
+        <ul>
+            <li><a href="#"><img src="images/shouji/a-recommend.png" alt=""></a></li>
+            <li><a href="#"><img src="images/shouji/n-catergry.png" alt=""></a></li>
+            <li><a href="#"><img src="images/shouji/n-find.png" alt=""></a></li>
+            <li><a href="#"><img src="images/shouji/n-cart.png" alt=""></a></li>
+            <li><a href="#"><img src="images/shouji/n-me.png" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/angular-1.5.0-rc.1/angular.min.js"></script>
+<script src="js/angular-1.5.0-rc.1/angular-animate.min.js"></script>
+<script src="js/ui-bootstrap-tpls-0.11.0.min.js"></script>
+<script src="js/shouji.js"></script>
+</body>
+</html>

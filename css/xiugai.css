@@ -1,0 +1,290 @@
+@media screen and (max-width:480px){
+    html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+    ul, ol { list-style:none; }
+    input { padding-top:0; padding-bottom:0; font-family: "Microsoft YaHei","宋体";}
+    select, input { vertical-align:middle; }
+    select, input, textarea { font-size:12px; margin:0; }
+    textarea { resize:none; } /*防止拖动*/
+    img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+    table { border-collapse:collapse; }
+    body {
+        font:12px/150% Arial,'microsoft yahei';
+        color:#666;
+        background:#fff
+    }
+    .clearfix:before,.clearfix:after{
+        content:"";
+        display:table;
+    }
+    .clearfix:after{clear:both;}
+    .clearfix{
+        *zoom:1;/*IE/7/6*/
+    }
+    a{color:#666; text-decoration:none; }
+    a:hover{color:#C81623;}
+    h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+    s,i,em{font-style:normal;text-decoration:none;}
+    .col-red{color: #C81623!important;}
+
+    /*公共类*/
+
+
+    .fl {
+        float:left
+    }
+    .fr {
+        float:right
+    }
+    .al {
+        text-align:left
+    }
+    .ac {
+        text-align:center
+    }
+    .ar {
+        text-align:right
+    }
+    .hide {
+        display:none
+    }
+    /*1111*/
+    .section1{
+
+        width:100%;
+    }
+    .lunbo img{
+        width:100%;
+        text-align: center;
+    }
+    .search{
+        position:absolute;
+        top:0;
+        margin:20px auto;
+        left:50%;
+        width:100%;
+        height:35px;
+        transform: translate(-50%, -50%);
+
+    }
+    .search input{
+        position: relative;
+        background: white;
+        border:1px solid #000000;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        width:75%;
+        height: 20px;
+        float:left;
+        margin-top:5px;
+        overflow: hidden;
+    }
+    .search button{
+        width:20%;
+        font-size: 12px;
+        float:right;
+        margin-top:5px;
+    }
+    .w{
+        width:90%;
+        margin:5px;
+    }
+    /*222*/
+    .section2{
+        width:100%;
+        height:150px;
+    }
+    .nav{
+        width:100%;
+        text-align: center;
+        margin:10px;
+    }
+    .nav a{
+        width:20%;
+        height:75px;
+        float:left;
+        text-align:center;
+
+    }
+    .nav a img{
+        width:auto;
+        height:38px;
+        margin:5px auto;
+
+    }
+    .nav a span{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+
+    }
+    /*3333*/
+    .section3{
+        width:100%;
+        background-color:#FFF;
+    }
+    .section3 .libao img{
+        width:100%;
+        height:105px;
+        text-align: center;
+        margin:10px;
+    }
+    .section3 .news{
+        margin-left:5%;
+        height:30px;
+        line-height:30px;
+        border:1px solid #9d9d9d;
+        border-radius: 15px;
+        background-color:#FFF;
+    }
+    .news img{
+        float: left;
+        height:20px;
+        margin:5px auto;
+
+    }
+    .newlis{
+        float:left;
+        color:red;
+        font-size:12px;
+        margin-left:50px;
+        height:20px;
+
+    }
+    .a-right{
+        float:right;
+        font-size:12px;
+        color:red;
+    }
+    /*44444*/
+    .section4{
+        width:100%;
+        height:180px;
+
+    }
+    .section4 .daojishi{
+        width:100%;
+        height:35px;
+
+        margin-left:5%;
+    }
+    #demo p{
+        font-size: 12px;
+        line-height:35px;
+        text-align: center;
+        margin:5px;
+    }
+    .zhangshi{
+        text-align: center;
+        margin-left:5%;
+
+    }
+    .zhangshi li{
+        width:25%;
+        height:145px;
+        float:left;
+        margin-top:5px;
+
+    }
+
+    .zhangshi .price-right{
+        width: 25%;
+        height:145px;
+        float:right;
+    }
+    .zhangshi li img{
+        width:80px;
+        height:80px;
+    }
+    .zhangshi li span{
+        display: block;
+        font-size:12px;
+        text-align:center;
+    }
+    .price .new-price{
+        color:#f23030;
+    }
+    .price .old-price{
+        color:#686868;
+        text-decoration: line-through;
+    }
+    /*5555*/
+    .section5{
+        width:100%;
+        height:auto;
+        overflow: hidden;
+    }
+    .section .alis{
+        margin-bottom:100px;
+
+    }
+    .section5 .ashuo{
+        width:100%;
+        height:50px;
+        background:url(../images/shouji/ashuo.png)no-repeat center;
+    }
+    .section5 .ashuo span img{
+        display: block;
+        width:80px;
+        height:40px;
+        margin:5px auto;
+    }
+    .section5 .alis{
+        margin-left:5%;
+    }
+    .real-left .text-left ,.real-right .text-right
+    {
+        width:50%;
+        height:100px;
+        float:left;
+    }
+    .text-left strong ,.text-right strong{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text-left p ,.text-right p{
+        height: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text-left span ,.text-right span{
+        font-size:12px;
+        background-color:#ff4a7d;
+    }
+    .real-left .img-left img ,.real-right .img-right img{
+        width:40%;
+        height:100px;
+        float:left;
+    }
+    .section5 .real-left {
+        width:50%;
+
+        float: left;
+    }
+    .section5 .real-right{
+        width:50%;
+        float:right;
+    }
+    /*6666*/
+
+    .sectionx{
+        width:100%;
+        height:70px;
+        background-color:#FFF;
+
+    }
+    .sectionx .dilist ul{
+        margin-left:5%;
+    }
+    .sectionx .dilist li{
+        width: 20%;
+        height:70px;
+        float:left;
+        text-align:center;
+    }
+    .sectionx .dilist li img{
+        width:100%;
+        height:70px;
+
+    }
+}
