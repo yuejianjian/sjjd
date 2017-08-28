@@ -23,5 +23,16 @@ angular.module('myApp', ['ui.bootstrap', 'ngAnimate']).controller('CarouselDemoC
         });
     };
     $scope.addSlide();
+
+    $scope.box2 = "数码相机";
+    $scope.cli = function(){
+      if($scope.box2 =="数码相机"){
+          $scope.box2 ="";
+      }
+    }
+    $scope.blu = function(){
+        $scope.box2 = "数码相机";
+
+    }
 });
 

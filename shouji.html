@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body ng-app="myApp">
-<div class="section1">
 
+<div class="section1" ng-controller="CarouselDemoCtrl">
     <div class="search">
-        <input type="text" name="" id="txt" value="数码相机">
+        <input type="text" ng-model="box1" id="txt"  ng-click="cli()" ng-blur="blu()" ng-value="box2">
         <button>搜索</button>
     </div>
-    <div ng-controller="CarouselDemoCtrl">
+    <div >
         <div style="height: 170px">
             <carousel interval="myInterval" no-wrap="noWrapSlides">
                 <slide ng-repeat="slide in slides" active="slide.active">
@@ -24,7 +24,6 @@
             </carousel>
         </div>
     </div>
-
 </div>
 <div class="section2">
     <div class="w">
